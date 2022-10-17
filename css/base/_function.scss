@@ -1,0 +1,4 @@
+@function pxToRem ($px){
+    $pxlsTorem: calc($px / 16);
+    @return #{$pxlsTorem}rem;
+}
